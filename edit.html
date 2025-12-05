@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Редактируемая страница</title>
+</head>
+<body>
+    <h1>Редактируемая страница</h1>
+
+    <p>Здесь вы можете добавить свой текст:</p>
+
+    <textarea id="editor" rows="10" cols="50" placeholder="Напишите что-то..."></textarea><br><br>
+
+    <button onclick="updateText()">Обновить текст на странице</button>
+
+    <h2>Результат:</h2>
+    <div id="result" style="border:1px solid #000; padding:10px; min-height:50px;"></div>
+
+    <br>
+    <a href="index.html">Назад на главную</a>
+
+    <script>
+        function updateText() {
+            var text = document.getElementById("editor").value;
+            document.getElementById("result").innerText = text;
+        }
+    </script>
+</body>
+</html>
