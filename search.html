@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск</title>
+    <style>
+        body { margin:0; font-family: Arial, sans-serif; }
+        .sidebar { position: fixed; width:220px; height:100%; background:#f8f8f8; padding:20px; border-right:1px solid #ccc; }
+        .content { margin-left:240px; padding:20px; }
+        input { width:300px; padding:6px; }
+    </style>
+</head>
+<body>
+<div class="sidebar">
+    <h3>Wiki Навигация</h3>
+    <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="search.html" class="active">Поиск</a></li>
+        <li><a href="articles.html">Список статей</a></li>
+        <li><a href="create.html">Создать статью</a></li>
+    </ul>
+</div>
+
+<div class="content">
+    <h1>Поиск по Wiki</h1>
+    <input type="text" placeholder="Введите запрос...">
+    <p>Результаты пока не отображаются (имитация поиска).</p>
+</div>
+</body>
+</html>
