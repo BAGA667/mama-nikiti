@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Создать статью</title>
+    <style>
+        body { margin:0; font-family: Arial, sans-serif; }
+        .sidebar { position: fixed; width:220px; height:100%; background:#f8f8f8; padding:20px; border-right:1px solid #ccc; }
+        .content { margin-left:240px; padding:20px; }
+        input, textarea { width:400px; padding:6px; margin-bottom:10px; }
+        textarea { height:200px; }
+        button { padding:10px 20px; cursor:pointer; }
+    </style>
+</head>
+<body>
+<div class="sidebar">
+    <h3>Wiki Навигация</h3>
+    <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="search.html">Поиск</a></li>
+        <li><a href="articles.html">Список статей</a></li>
+        <li><a href="create.html" class="active">Создать статью</a></li>
+    </ul>
+</div>
+
+<div class="content">
+    <h1>Создать статью</h1>
+
+    <p>Имитация формы создания статьи (ничего не сохраняет, просто демонстрация).</p>
+
+    <input type="text" placeholder="Название статьи">
+    <br>
+    <textarea placeholder="Текст статьи..."></textarea>
+    <br>
+    <button>Создать</button>
+</div>
+</body>
+</html>
