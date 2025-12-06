@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Новая страница</title>
+    <style>
+        body { margin:0; font-family: Arial, sans-serif; }
+        .sidebar { position: fixed; width:200px; height:100%; background:#f0f0f0; padding:20px; border-right:1px solid #ccc; }
+        .sidebar ul { list-style:none; padding-left:0; }
+        .sidebar ul li { margin-bottom:10px; }
+        .sidebar ul li a { text-decoration:none; color:#000; }
+        .sidebar ul li a.active { font-weight:bold; color:#0077cc; }
+        .content { margin-left:220px; padding:20px; }
+        h1 { color:#333; }
+    </style>
+</head>
+<body>
+<div class="sidebar">
+    <h3>Меню</h3>
+    <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">О проекте</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+        <li><a href="info.html">Информация</a></li>
+        <li><a href="newpage.html" class="active">Новая страница</a></li>
+    </ul>
+</div>
+
+<div class="content">
+    <h1>Новая страница</h1>
+    <p>Эта страница добавлена для демонстрации Wiki-подобного сайта.</p>
+    <p>Вы можете писать здесь любой текст, как будто создаете новую страницу на Wiki.</p>
+</div>
+</body>
+</html>
